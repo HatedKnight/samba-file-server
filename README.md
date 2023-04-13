@@ -48,7 +48,8 @@ Replace "your_username" with your Fedora username.
     sudo firewall-cmd --add-service=samba --permanent
     sudo firewall-cmd --reload
     
-**Usage**
+## Usage
+
 10. Access the shared folder from Windows:
     On the built-in file explorer use the following address -> \\your_fedora_ip\Shared-Folder
 *Replace "your_fedora_ip" with your Fedora machine's local IP address.
@@ -68,7 +69,7 @@ Replace "your_username" with your Fedora username.
 
 
 
-**Troubleshooting**
+## Troubleshooting
 
 If you encounter issues while accessing the Samba file server or sharing files, consider the following common problems and solutions:
 
@@ -82,12 +83,3 @@ Firewall blocking access: Ensure that the firewall on the Fedora machine allows 
 
 Username and password not working: If you've forgotten your Samba password or need to reset it, use the smbpasswd command:
     sudo smbpasswd -a your_username
-
-
-
-
-
-
-
-
-
